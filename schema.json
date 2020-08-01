@@ -1,0 +1,11 @@
+{
+  "ID": 0,
+  "Name": "Foo Bar Business Inc.",
+  "Address": "123 Main St",
+  "Phone": "123-456-7890",
+  "Description": "A fake business that doesn't really do anything",
+  "Category": "Retail",
+  "Minority_Group": ["Black/African-American", "Hispanic/Latino", "LGBTQ+"],
+  "Images": ["foo-bar.jpg", "bar-foo.png"],
+  "Files": ["brochure.pdf"],
+}
