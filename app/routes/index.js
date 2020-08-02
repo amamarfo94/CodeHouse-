@@ -12,4 +12,8 @@ router.get('/', function(req, res, next) {
   res.render('index', biz[1]);
 });
 
+router.get('/results', function(req, res, next) {
+  res.render('results', biz[1]);
+});
+
 module.exports = router;
