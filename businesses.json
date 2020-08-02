@@ -6,8 +6,8 @@
   "Phone": "123-456-7890",
   "Description": "A fake business that doesn't really do anything",
   "Category": "Retail",
-  "Minority_Group": ["Asian","Black/African-American", "Hispanic/Latino", "LGBTQ+"],
-  "Images": ["foo-bar.jpg", "bar-foo.png"],
+  "MinorityGroup": "Asian",
+  "Images": ["https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg", "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg"],
   "Files": ["brochure.pdf"]
 },
 
@@ -18,8 +18,8 @@
   "Phone": "225-456-6890",
   "Description": "A real business",
   "Category": "Service",
-  "Minority_Group": ["Asian","Black/African-American", "Hispanic/Latino", "LGBTQ+"],
-  "Images": ["baz-img.jpg", "baz-pic.png"],
+  "MinorityGroup": "Black/African-American", 
+  "Images": ["https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg", "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg"],
   "Files": ["brochure.pdf"]
 }
 ]

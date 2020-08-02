@@ -3,26 +3,37 @@ var fs = require('fs');
 var router = express.Router();
 
 var rawdata = fs.readFileSync('../businesses.json');
-var biz = JSON.parse(rawdata);
-console.log (biz)
+var businesses = JSON.parse(rawdata);
+console.log(businesses)
 
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', biz[1]);
+router.get('/', function (req, res, next) {
+  res.render('index', businesses[1]);
 });
 
-router.post('/results', function(req, res, next) {
+router.post('/results', function (req, res, next) {
   console.log(req.body);
-  var index = parseInt(req.body.bizIndex);  
-  res.render('results', biz[index]);
+  var category = req.body.category;
+  var minorityGroup = req.body.minorityGroup;
+  var myList = [];
+
+  for (let i = 0; i < businesses.length; i++) {
+    var biz = businesses[i]; 
+    console.log(biz);
+    if (category == biz.Category && minorityGroup == biz.MinorityGroup) {
+      myList.push(biz)
+    }
+  }
+  console.log(category);
+  console.log(minorityGroup);
+  console.log(myList);
+  res.render('results', {myList: myList});
 });
 
-router.get('/bizinfo', function(req, res, next) {
-  res.render('bizinfo', biz[1]);
+
+router.get('/bizinfo', function (req, res, next) {
+  res.render('bizinfo', businesses[1]);
 });
-
-
-
 
 module.exports = router;
