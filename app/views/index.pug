@@ -15,14 +15,19 @@ block content
       <a href="#catalogue">Full Catalogue of Businesses</a>
     </div>    
 
-  form(action="/results", method="post")
-    input#search-bar(type="text", placeholder="Category", name="category")
-    input#search-bar(type="text", placeholder="Search business", name="bizIndex")
-    select#minority-list(name = "minorityGroup")
-      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latino", name:"Hispanic/Latino"}, {value: "LGBTQ+", name:"LGBTQ+"}]
-        option(value=val.value) #{val.name}
-    button#search-btn(type="submit") Search
-
   p The purpose of this website is to serve as an online database for Minority-owned Small Businesses in your area!
   h3 Use our search engine to get started!
+
+  form(action="/results", method="post")
+    //- input#search-bar(type="text", placeholder="Category", name="category")
+    select#minority-list(name = "minorityGroup")
+      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latinx", name:"Hispanic/Latinx"}, {value: "LGBTQ+", name:"LGBTQ+"}]
+        option(value=val.value) #{val.name}
+    select#category(name = "category")
+      each val in [{value: "", name: "Select Category"},{value: "Food", name:"Food"},{value: "Beauty", name:"Beauty"},{value: "Health & Wellness", name:"Health & Wellness"}, {value: "Retail", name:"Retail"}, {value: "Entertainment", name:"Entertainment"}, {value: "Services", name:"Services"}]
+        option(value=val.value) #{val.name}
+    input#search-bar(type="text", placeholder="Search business", name="bizIndex")
+
+    button#search-btn(type="submit") Search
+
 
