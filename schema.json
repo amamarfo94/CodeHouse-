@@ -7,5 +7,5 @@
   "Category": "Retail",
   "Minority_Group": ["Black/African-American", "Hispanic/Latino", "LGBTQ+"],
   "Images": ["foo-bar.jpg", "bar-foo.png"],
-  "Files": ["brochure.pdf"],
+  "Files": ["brochure.pdf"]
 }
