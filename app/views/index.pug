@@ -1,5 +1,9 @@
 extends layout
 
 block content
-  h1= Name
-  p Welcome to my Website!
+  //- h1= Name
+  //- p Welcome to my Website!
+
+  form(id = "search-form", action="", method="get")
+    input#search-bar(type="text", placeholder="Search business", name="search")
+    button#search-btn(type="submit") Search
