@@ -1,3 +1,4 @@
+[
 {
   "ID": 0,
   "Name": "Foo Bar Business Inc.",
@@ -8,4 +9,17 @@
   "Minority_Group": ["Black/African-American", "Hispanic/Latino", "LGBTQ+"],
   "Images": ["foo-bar.jpg", "bar-foo.png"],
   "Files": ["brochure.pdf"]
+},
+
+{
+  "ID": 1,
+  "Name": "Baz Business Inc.",
+  "Address": "133 Main St",
+  "Phone": "225-456-6890",
+  "Description": "A real business",
+  "Category": "Service",
+  "Minority_Group": ["Black/African-American", "Hispanic/Latino", "LGBTQ+"],
+  "Images": ["baz-img.jpg", "baz-pic.png"],
+  "Files": ["brochure.pdf"]
 }
+]
