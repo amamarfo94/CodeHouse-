@@ -6,8 +6,9 @@ block content
 
   form(action="/results", method="post")
     input#search-bar(type="text", placeholder="Category", name="category")
-    input#search-bar(type="text", placeholder="Search business", name="bizIndex")
     select#minority-list(name = "minorityGroup")
-      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latino", name:"Hispanic/Latino"}, {value: "LGBTQ+", name:"LGBTQ+"}]
+      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latino", name:"Hispanic/Latino"}, {value: "LGBTQ+", name:"LGBTQ+"},{value: "No preference", name:"No preference"}]
         option(value=val.value) #{val.name}
     button#search-btn(type="submit") Search
+
+    //-To do: Change category to dropdown 
