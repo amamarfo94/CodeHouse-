@@ -8,6 +8,6 @@ block content
     input#search-bar(type="text", placeholder="Category", name="category")
     input#search-bar(type="text", placeholder="Search business", name="bizIndex")
     select#minority-list(name = "minorityGroup")
-      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"}]
+      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latino", name:"Hispanic/Latino"}, {value: "LGBTQ+", name:"LGBTQ+"}]
         option(value=val.value) #{val.name}
     button#search-btn(type="submit") Search
