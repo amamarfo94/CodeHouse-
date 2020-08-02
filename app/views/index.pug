@@ -4,6 +4,10 @@ block content
   //- h1= Name
   //- p Welcome to my Website!
 
-  form(id = "search-form", action="", method="get")
-    input#search-bar(type="text", placeholder="Search business", name="search")
+  form(action="/results", method="post")
+    input#search-bar(type="text", placeholder="Category", name="category")
+    input#search-bar(type="text", placeholder="Search business", name="bizIndex")
+    select#minority-list(name = "minorityGroup")
+      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"}]
+        option(value=val.value) #{val.name}
     button#search-btn(type="submit") Search
