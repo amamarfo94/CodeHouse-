@@ -9,6 +9,11 @@ block content
         title faketitle
     body
         h1 Kuber-Ladies Home Page	
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#upload">Upload Business Info Here</a>
+      <a href="#catalogue">Full Catalogue of Businesses</a>
+    </div>    
 
   form(action="/results", method="post")
     input#search-bar(type="text", placeholder="Category", name="category")
