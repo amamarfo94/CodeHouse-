@@ -1,8 +1,13 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: seashell;
+  background: url(https://ci4.googleusercontent.com/proxy/VQVJ1Zxybvd5FEvSkGVRnK4Pu98HF8BxAE0ktvBb3L3xo4rGPnlQ20gFHywZsZVv-4U3bghpWL4zcn5N5wYoRPIPGKH-8l5YXr0UELjT3_ek8VzAMSrF37T9LwrJjlvdVXiwY_5bRxkqFntIgWDVuYx7Aboc-X_U=s0-d-e1-ft#https://www.freelogodesign.org/file/app/client/thumb/015856a0-6213-4f4c-b76e-1735070cfbcd_200x200.png) no-repeat top center;
 }
 
+.topnav{
+  padding: 40px;;
+}
 a {
   color: #00B7FF;
 }
