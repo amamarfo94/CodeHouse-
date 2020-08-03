@@ -36,14 +36,12 @@ block content
   
   form(action="/results", method="post")
     //- input#search-bar(type="text", placeholder="Category", name="category")
-<<<<<<< HEAD
     
     select#category(name = "category")
       each val in [{value: "", name: "Select Category"},{value: "Food", name:"Food"},{value: "Beauty", name:"Beauty"},{value: "Health & Wellness", name:"Health & Wellness"}, {value: "Retail", name:"Retail"}, {value: "Entertainment", name:"Entertainment"}, {value: "Services", name:"Services"}]
         option(value=val.value) #{val.name}
 
 
-=======
     select#minority-list(name = "minorityGroup")
       each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latinx", name:"Hispanic/Latinx"}, {value: "LGBTQ+", name:"LGBTQ+"}]
         option(value=val.value) #{val.name}
@@ -51,15 +49,11 @@ block content
     select#category(name = "category")
       each val in [{value: "", name: "Select Category"},{value: "Food", name:"Food"},{value: "Beauty", name:"Beauty"},{value: "Health & Wellness", name:"Health & Wellness"}, {value: "Retail", name:"Retail"}, {value: "Entertainment", name:"Entertainment"}, {value: "Services", name:"Services"}]
           input#search-bar(type="text", placeholder="Category", name="category")
->>>>>>> df297723fe81d0e8fa72ceb48ddbad230972e399
     select#minority-list(name = "minorityGroup")
       each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latinx", name:"Hispanic/Latinx"}, {value: "LGBTQ+", name:"LGBTQ+"}, {value: "No Preference", name:"No Preference"}]
         option(value=val.value) #{val.name}
-<<<<<<< HEAD
     //- input#search-bar(type="text", placeholder="Search business", name="bizIndex")
-=======
           input#search-bar(type="text", placeholder="Search business", name="bizIndex")
->>>>>>> df297723fe81d0e8fa72ceb48ddbad230972e399
 
     button#search-btn(type="submit") Search
 
