@@ -26,3 +26,12 @@ img{
 th, td{
   text-align: left;
 }
+
+.search-body{
+  background-image: url('${https://www.openbusinesscouncil.org/wp-content/uploads/2019/08/small-business-shops-ss-1920.jpg}');
+  width: auto;  
+  height: auto;
+  background-color: blue;
+  overflow:auto;
+  display:inline-block;
+}
