@@ -12,14 +12,16 @@
 },
 {
   "ID": 1,
-  "Name": "Foo Bar Business Inc.",
-  "Address": "123 Main St",
-  "Phone": "123-456-7890",
-  "Description": "A fake business that doesn't really do anything",
-  "Category": "Food",
-  "MinorityGroup": "Hispanic/Latinx",
-  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
-  "Files": ["brochure.pdf"]
+  "Name": "Nubiance Salon & Spa",
+  "Address": "2325-100 Cheshire Bridge Rd. Atlanta, GA 30324",
+  "Phone": "(404)-235-0606",
+  "Description": "With over 18 years in operation, Nubiance has passed the test of time to become a state-of-the-art multicultural salon that promotes health and beauty as a woman's right to claim.",
+  "Category": "Beauty",
+  "MinorityGroup": "Black/African-American",
+  "Images": "http://nubiancesalon.com/images/icons/services-hair.jpg",
+  "Files": ["http://nubiancesalon.com"],
+  "Business Hours": "Sun: Closed Mon: Closed Tue: 11 AM - 7 PM Wed: 9 AM - 7 PM  Thu: 9 AM - 7 PM Fri: 9 AM - 7 PM Sat: 7 AM - 2 PM"
+  
 },
 {
   "ID": 2,
@@ -27,32 +29,36 @@
   "Address": "123 Main St",
   "Phone": "123-456-7890",
   "Description": "A fake business that doesn't really do anything",
-  "Category": "Beauty",
+  "Category": "Food",
   "MinorityGroup": "No Preference",
   "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
   "Files": ["brochure.pdf"]
 },
 {
   "ID": 3,
-  "Name": "Foo Bar Business Inc.",
-  "Address": "123 Main St",
-  "Phone": "123-456-7890",
-  "Description": "A fake business that doesn't really do anything",
-  "Category": "Health & Wellness",
-  "MinorityGroup": "LGBTQ+",
-  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
-  "Files": ["brochure.pdf"]
+  "Name": "Master Groom Barber Salon",
+  "Address": "349 Decatur Street | Downtown Atlanta 30312",
+  "Phone": "(404)522-2322",
+  "Description": "From our inception in 2010, we have always been proud of the professional master barbers we attract. We are quality licensed barbers. For any hair type, we provide great cuts and shaves along with a unique atmosphere. We encourage you to make an appointment or walk-in. Free parking, Free Wi-Fi, Free appointments.",
+  "Category": "Beauty",
+  "MinorityGroup": "Black/African-American",
+  "Images": "https://lh3.googleusercontent.com/SMebbcbnIXw4ZHiTWpeyD5tjg6Tu1bVFOeTNALEPHxjyuvJUBSgYJqpNNteT2t71oyEhDV-i=w1080-h608-p-no-v0",
+  "Files": ["http://www.master-groom.com"],
+  "Business Hours": "MONDAY - SATURDAY 8:00 AM. - 8:00 PM. SUNDAY 12:00 PM. - 6:00 PM."
+
 },
 {
   "ID": 4,
-  "Name": "Baz Business Inc.",
-  "Address": "133 Main St",
-  "Phone": "225-456-6890",
-  "Description": "A real business",
-  "Category": "Services",
+  "Name": "Queen's Nail Spa",
+  "Address": "2745 MT ZION RD, JONESBORO, GA 30236",
+  "Phone": "(404)593-0026",
+  "Description": " NAILS BY TIARA OFFERS ALL OF THE LATEST AND HARD TO FIND NAIL TRENDS. TIARA SMITH IS AN ARTISTIC, MULTI-TALENTED NAIL TECHNICIAN WHO HAS EMBRACED TECHNIQUES FROM AROUND THE GLOBE; TIARA CONTINUES TO SET THE BAR IN FULL SERVICE CUSTOMIZED NAIL CARE.  FROM NATURAL NAIL TREATMENT TO INNOVATIVE ACRYLIC, TIARA HAS THE ABILITY TO DELIVER WHATEVER THE MIND CAN IMAGINE. ATLANTA’S PREMIER BLACK OWNED NAIL SALON",
+  "Category": "Beauty",
   "MinorityGroup": "Black/African-American", 
-  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
-  "Files": ["brochure.pdf"]
+  "Images": "https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_1350/https://nailsbytiara.com/wp-content/uploads/2017/10/prices-graphic-1.jpg",
+  "Files": ["https://nailsbytiara.com"],
+  "Business Hours": "Monday - Thursday 10AM- 8PM Friday- Saturday 9AM-8PM Sunday 12PM-6PM"
+
 }
 
 ]
