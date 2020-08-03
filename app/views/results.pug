@@ -1,18 +1,19 @@
 extends layout
 
 block content
-  div(class='table')
-    table
-      each item in myList
+  a(href="/") Home
+  each item in myList
+    div(class='table')
+      table
         tr
           div(class='rows')
             - var url = '/bizInfo/?id=' + item.ID;
             a(href=url) #{item.Name}
         tr
-                td="Location: " + item.Address 
+            td="Location: " + item.Address 
         tr
-                td="Tel: "+ item.Phone
+            td="Tel: "+ item.Phone
         tr
-                td="Info: " + item.Description
+            td="Info: " + item.Description
         tr
             img(src=item.Images)    
