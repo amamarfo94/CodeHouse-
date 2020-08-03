@@ -35,6 +35,7 @@ router.post('/results', function (req, res, next) {
 router.get('/bizinfo', function (req, res, next) {
 
   let id = parseInt(req.query.id);
+  
   res.render('bizinfo', businesses[id]);
 });
 
