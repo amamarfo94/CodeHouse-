@@ -33,7 +33,9 @@ router.post('/results', function (req, res, next) {
 
 
 router.get('/bizinfo', function (req, res, next) {
-  res.render('bizinfo', businesses[1]);
+
+  let id = parseInt(req.query.id);
+  res.render('bizinfo', businesses[id]);
 });
 
 module.exports = router;

@@ -17,7 +17,7 @@
   "Address": "133 Main St",
   "Phone": "225-456-6890",
   "Description": "A real business",
-  "Category": "Service",
+  "Category": "Services",
   "MinorityGroup": "Black/African-American", 
   "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
   "Files": ["brochure.pdf"]

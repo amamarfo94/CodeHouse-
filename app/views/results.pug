@@ -6,8 +6,8 @@ block content
       each item in myList
         tr
           div(class='rows')
-            a(href="/bizinfo" ) #{item.ID}
-              th=item.Name
+            - var url = '/bizInfo/?id=' + item.ID;
+            a(href=url) #{item.Name}
         tr
                 td="Location: " + item.Address 
         tr
