@@ -1,0 +1,45 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: codehouse
+  labels:
+    app: codehouse
+spec:
+  ports:
+    - port: 3000
+      name: codehouse
+      targetPort: 3000
+  selector:
+    app: codehouse
+    tier: test
+  type: NodePort
+---
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: codehouse
+  labels:
+    app: codehouse
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: codehouse
+      tier: test
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: codehouse
+        tier: test
+    spec:
+      containers:
+      - image: localhost:5000/codehouse
+        imagePullPolicy: IfNotPresent
+        name: codehouse
+        ports:
+        - containerPort: 3000
+          name: codehouse
+        securityContext:
+          readOnlyRootFilesystem: true
