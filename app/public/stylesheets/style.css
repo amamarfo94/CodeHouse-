@@ -7,10 +7,6 @@ a {
   color: #00B7FF;
 }
 
-/* #search-form {
-  margin:auto;
-} */
-
 .table:hover{
 background-color:rgba(38, 12, 12, 0.28);
 }
@@ -27,11 +23,3 @@ th, td{
   text-align: left;
 }
 
-.search-body{
-  background-image: url('${https://www.openbusinesscouncil.org/wp-content/uploads/2019/08/small-business-shops-ss-1920.jpg}');
-  width: auto;  
-  height: auto;
-  background-color: blue;
-  overflow:auto;
-  display:inline-block;
-}
