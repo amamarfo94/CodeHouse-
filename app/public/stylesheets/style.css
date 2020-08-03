@@ -1,8 +1,15 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: url(https://ci4.googleusercontent.com/proxy/VQVJ1Zxybvd5FEvSkGVRnK4Pu98HF8BxAE0ktvBb3L3xo4rGPnlQ20gFHywZsZVv-4U3bghpWL4zcn5N5wYoRPIPGKH-8l5YXr0UELjT3_ek8VzAMSrF37T9LwrJjlvdVXiwY_5bRxkqFntIgWDVuYx7Aboc-X_U=s0-d-e1-ft#https://www.freelogodesign.org/file/app/client/thumb/015856a0-6213-4f4c-b76e-1735070cfbcd_200x200.png) no-repeat top center;
+  background-size: 200px;
+  background-color: bisque;
+
 }
 
+a{
+  color: orange;
+  font-family: monospace;
+}
 .topnav{
   text-align: center;
   margin-top: 150px;
@@ -19,11 +26,14 @@ body {
   align-items: center;
   margin-top:25px;
   left:30%;
+  font-family: monospace;
+  
 }
 
 .card-container{
   width: 300px;
   height: 100px;
+  margin-right: 1000px;
 
 }
 
@@ -37,6 +47,7 @@ body {
 
 figure{
   padding: 25px;
+  
 }
 .card-container:hover .card{
   transform: rotateY(180deg);
@@ -54,7 +65,6 @@ figure{
   background:rgba(38, 12, 12, 0.28);
   color: black;
 }
-
 .card .back{
   background: rgba(38, 12, 12, 0.28);
   color: black;
@@ -80,6 +90,8 @@ figure{
 .table{
   margin-top: 150px;
   overflow: auto;
+  font-family: monospace;
+  padding:16px;
 }
 .table:hover{
 background-color:rgba(38, 12, 12, 0.28);
@@ -102,3 +114,10 @@ th, td{
   margin-top: 150px;
 }
 
+.head-top{
+  background: rgba(38, 12, 12, 0.28) ;
+}
+
+.head-bottom{
+  background:black;
+}
