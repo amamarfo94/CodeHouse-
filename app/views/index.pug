@@ -6,34 +6,46 @@ block content
 
   html
     head
-        title faketitle
+        title = faketitle
+    
+    img(src='https://cdn.pixabay.com/photo/2018/03/10/12/00/paper-3213924__340.jpg')
+   
+
     body
         h1 Kuber-Ladies Home Page	
+        br
+        br
+        br
     <div class="topnav">
       <a class="active" href="#home">Home</a>
       <a href="#upload">Upload Business Info Here</a>
-      <a href="#catalogue">Full Catalogue of Businesses</a>
+      //- <a href="#catalogue">Full Catalogue of Businesses</a>
     </div>    
+      br
+      br
+      br
 
+  h4 Who Are We And What Do We Do?
   p The purpose of this website is to serve as an online database for Minority-owned Small Businesses in your area!
-  h3 Use our search engine to get started!
 
+  br
+
+  h3 Use our search engine to get started!
+  br
+  br
+  
   form(action="/results", method="post")
     //- input#search-bar(type="text", placeholder="Category", name="category")
-    select#minority-list(name = "minorityGroup")
-      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latinx", name:"Hispanic/Latinx"}, {value: "LGBTQ+", name:"LGBTQ+"}]
-        option(value=val.value) #{val.name}
+    
     select#category(name = "category")
       each val in [{value: "", name: "Select Category"},{value: "Food", name:"Food"},{value: "Beauty", name:"Beauty"},{value: "Health & Wellness", name:"Health & Wellness"}, {value: "Retail", name:"Retail"}, {value: "Entertainment", name:"Entertainment"}, {value: "Services", name:"Services"}]
-    input#search-bar(type="text", placeholder="Category", name="category")
-    select#minority-list(name = "minorityGroup")
-      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latino", name:"Hispanic/Latino"}, {value: "LGBTQ+", name:"LGBTQ+"},{value: "No preference", name:"No preference"}]
         option(value=val.value) #{val.name}
-    input#search-bar(type="text", placeholder="Search business", name="bizIndex")
+
+
+    select#minority-list(name = "minorityGroup")
+      each val in [{value: "", name: "Select Minority Group"},{value: "Black/African-American", name:"Black/African-American"},{value: "Asian", name:"Asian"},{value: "Hispanic/Latinx", name:"Hispanic/Latinx"}, {value: "LGBTQ+", name:"LGBTQ+"}, {value: "No Preference", name:"No Preference"}]
+        option(value=val.value) #{val.name}
+    //- input#search-bar(type="text", placeholder="Search business", name="bizIndex")
 
     button#search-btn(type="submit") Search
-
-    //-To do: Change category to dropdown 
-  p The purpose of this website is to serve as an online database for Minority-owned Small Businesses in your area!
-  h3 Use our search engine to get started!
 
