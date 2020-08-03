@@ -7,7 +7,7 @@ block content
       table
         tr
           div(class='rows')
-            - var url = '/bizInfo/?id=' + item.ID;
+            - var url = item.url;
             a(href=url) #{item.Name}
         tr
             td="Location: " + item.Address 
