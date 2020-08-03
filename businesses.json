@@ -10,9 +10,41 @@
   "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
   "Files": ["brochure.pdf"]
 },
-
 {
   "ID": 1,
+  "Name": "Foo Bar Business Inc.",
+  "Address": "123 Main St",
+  "Phone": "123-456-7890",
+  "Description": "A fake business that doesn't really do anything",
+  "Category": "Food",
+  "MinorityGroup": "Hispanic/Latinx",
+  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
+  "Files": ["brochure.pdf"]
+},
+{
+  "ID": 2,
+  "Name": "Foo Bar Business Inc.",
+  "Address": "123 Main St",
+  "Phone": "123-456-7890",
+  "Description": "A fake business that doesn't really do anything",
+  "Category": "Beauty",
+  "MinorityGroup": "No Preference",
+  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
+  "Files": ["brochure.pdf"]
+},
+{
+  "ID": 3,
+  "Name": "Foo Bar Business Inc.",
+  "Address": "123 Main St",
+  "Phone": "123-456-7890",
+  "Description": "A fake business that doesn't really do anything",
+  "Category": "Health & Wellness",
+  "MinorityGroup": "LGBTQ+",
+  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
+  "Files": ["brochure.pdf"]
+},
+{
+  "ID": 4,
   "Name": "Baz Business Inc.",
   "Address": "133 Main St",
   "Phone": "225-456-6890",

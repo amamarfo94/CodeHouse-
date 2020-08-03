@@ -1,17 +1,77 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: seashell;
   background: url(https://ci4.googleusercontent.com/proxy/VQVJ1Zxybvd5FEvSkGVRnK4Pu98HF8BxAE0ktvBb3L3xo4rGPnlQ20gFHywZsZVv-4U3bghpWL4zcn5N5wYoRPIPGKH-8l5YXr0UELjT3_ek8VzAMSrF37T9LwrJjlvdVXiwY_5bRxkqFntIgWDVuYx7Aboc-X_U=s0-d-e1-ft#https://www.freelogodesign.org/file/app/client/thumb/015856a0-6213-4f4c-b76e-1735070cfbcd_200x200.png) no-repeat top center;
 }
 
 .topnav{
-  padding: 40px;;
-}
-a {
-  color: #00B7FF;
+  text-align: center;
+  margin-top: 150px;
 }
 
+
+.container{
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  display:inline-block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top:25px;
+  left:30%;
+}
+
+.card-container{
+  width: 300px;
+  height: 100px;
+
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+
+}
+
+figure{
+  padding: 25px;
+}
+.card-container:hover .card{
+  transform: rotateY(180deg);
+}
+
+.card figure{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+.card .front{
+  background:rgba(38, 12, 12, 0.28);
+  color: black;
+}
+
+.card .back{
+  background: rgba(38, 12, 12, 0.28);
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.search-body{
+  display: inline-block;
+}
+.instructions{
+  margin-top: 90px;
+}
+
+.table{
+  margin-top: 150px;
+  overflow: auto;
+}
 .table:hover{
 background-color:rgba(38, 12, 12, 0.28);
 }
@@ -21,10 +81,14 @@ background-color:rgba(38, 12, 12, 0.28);
 
 img{
   padding: 15px;
-  width: 10em;
+  width: 15em;
   float: right;
 }
+
 th, td{
   text-align: left;
+}
+.info-body{
+  margin-top: 150px;
 }
 
