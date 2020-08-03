@@ -8,7 +8,7 @@
   "Category": "Retail",
   "MinorityGroup": "Asian",
   "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
-  "Files": ["brochure.pdf"]
+  "url": "brochure.pdf"
 },
 {
   "ID": 1,
@@ -19,7 +19,7 @@
   "Category": "Beauty",
   "MinorityGroup": "Black/African-American",
   "Images": "http://nubiancesalon.com/images/icons/services-hair.jpg",
-  "Files": ["http://nubiancesalon.com"],
+  "url": "http://nubiancesalon.com",
   "Business Hours": "Sun: Closed Mon: Closed Tue: 11 AM - 7 PM Wed: 9 AM - 7 PM  Thu: 9 AM - 7 PM Fri: 9 AM - 7 PM Sat: 7 AM - 2 PM"
   
 },
@@ -32,7 +32,7 @@
   "Category": "Food",
   "MinorityGroup": "No Preference",
   "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
-  "Files": ["brochure.pdf"]
+  "url": "brochure.pdf"
 },
 {
   "ID": 3,
@@ -43,7 +43,7 @@
   "Category": "Beauty",
   "MinorityGroup": "Black/African-American",
   "Images": "https://lh3.googleusercontent.com/SMebbcbnIXw4ZHiTWpeyD5tjg6Tu1bVFOeTNALEPHxjyuvJUBSgYJqpNNteT2t71oyEhDV-i=w1080-h608-p-no-v0",
-  "Files": ["http://www.master-groom.com"],
+  "url": "http://www.master-groom.com",
   "Business Hours": "MONDAY - SATURDAY 8:00 AM. - 8:00 PM. SUNDAY 12:00 PM. - 6:00 PM."
 
 },
@@ -56,7 +56,7 @@
   "Category": "Beauty",
   "MinorityGroup": "Black/African-American", 
   "Images": "https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_1350/https://nailsbytiara.com/wp-content/uploads/2017/10/prices-graphic-1.jpg",
-  "Files": ["https://nailsbytiara.com"],
+  "url": "https://nailsbytiara.com",
   "Business Hours": "Monday - Thursday 10AM- 8PM Friday- Saturday 9AM-8PM Sunday 12PM-6PM"
 
 }
