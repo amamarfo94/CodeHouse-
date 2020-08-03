@@ -2,6 +2,22 @@ extends layout
 
 block content
   
-  ul
-    for item in myList
-      li= item.Name
+  //- ul
+  //-   for item in myList
+  //-     li= item
+
+  div(class='table')
+    table
+      each item in myList
+        tr
+          div(class='rows')
+            a(href="/bizinfo" ) #{item.ID}
+              th=item.Name
+        tr
+                td="Location: " + item.Address 
+        tr
+                td="Tel: "+ item.Phone
+        tr
+                td="Info: " + item.Description
+        tr
+            img(src=item.Images)    

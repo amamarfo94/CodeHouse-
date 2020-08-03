@@ -7,7 +7,7 @@
   "Description": "A fake business that doesn't really do anything",
   "Category": "Retail",
   "MinorityGroup": "Asian",
-  "Images": ["https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg", "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg"],
+  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
   "Files": ["brochure.pdf"]
 },
 
@@ -19,7 +19,8 @@
   "Description": "A real business",
   "Category": "Service",
   "MinorityGroup": "Black/African-American", 
-  "Images": ["https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg", "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg"],
+  "Images": "https://s3-media0.fl.yelpcdn.com/bphoto/Ddb8FXWx09HVd2sHTT2q8g/ls.jpg",
   "Files": ["brochure.pdf"]
 }
+
 ]
